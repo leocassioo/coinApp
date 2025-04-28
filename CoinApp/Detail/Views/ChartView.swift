@@ -1,5 +1,5 @@
 //
-//  ChatView.swift
+//  ChartView.swift
 //  CoinApp
 //
 //  Created by Leonardo Figueiredo on 27/04/25.
