@@ -12,13 +12,13 @@ struct CoordinatorView: View {
     
     var body: some View {
         NavigationStack(path: $appCoordinator.path) {
-            HomeView(viewModel: ExchangeViewModel())
+            ExchangeListView(viewModel: ExchangeViewModel())
                 .environmentObject(appCoordinator)
                 .navigationDestination(for: Screen.self) { screen in
                     switch screen {
                     case .home:
                         let viewModel = ExchangeViewModel()
-                        HomeView(viewModel: viewModel)
+                        ExchangeListView(viewModel: viewModel)
                     case .detail(let exchangeId):
                         let viewmodel = ExchangeDetailViewModel(exchangeId: exchangeId)
                         ExchangeDetailView(viewModel: viewmodel)
