@@ -22,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		473102402DBD80EC005E7ABA /* CoinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F17DEB2DC10644006E4A94 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		47FB0E3E2DBED642001DBF47 /* CoinAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoinAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -60,6 +61,7 @@
 		473102372DBD80EC005E7ABA = {
 			isa = PBXGroup;
 			children = (
+				47F17DEB2DC10644006E4A94 /* README.md */,
 				473102422DBD80EC005E7ABA /* CoinApp */,
 				47FB0E3F2DBED642001DBF47 /* CoinAppTests */,
 				473102412DBD80EC005E7ABA /* Products */,
